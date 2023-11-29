@@ -118,6 +118,7 @@ a {
     min-height: 400px;
     padding: 30px;
 }
+
 .review-boxes #review-section-title {
     /* font-size: 3rem; */
     text-align: center;
@@ -188,6 +189,7 @@ a {
     background-size:cover;
     background-position:center;
     color: black ;
+    text-shadow: 8px 8px 10px white;
 }
  
 .box#movie2:hover {
@@ -195,6 +197,7 @@ a {
     background-size:cover;
     background-position: center;
     color: white ;
+    text-shadow: 8px 8px 10px black;
 }
 
 .box#movie3:hover {
@@ -202,6 +205,7 @@ a {
     background-size:cover;
     background-position: center;
     color: white ;
+    text-shadow: 8px 8px 10px black;
 }
 
 .box#movie4:hover {
@@ -209,6 +213,7 @@ a {
     background-size:cover;
     background-position: center;
     color: white ;   
+    text-shadow: 8px 8px 10px black;
 } 
 
 .quote-container {
