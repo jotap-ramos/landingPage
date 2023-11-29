@@ -200,6 +200,7 @@ h1, h2, h3 {
     border: 2px solid red;
     color:#1f2937;
     max-width: 100dvh;
+    font-family: 'Times New Roman', Times, serif;
 
 }
 .quote-card #quote {
@@ -214,7 +215,41 @@ h1, h2, h3 {
     text-align: end;
     font-weight: 500;
 }
+.music-card-container {
+    display: flex;
+    justify-content: center;
+    padding: 48px;
+}
 
+.music-card-text {
+    border: 2px solid green;
+    display: flex;
+    flex-direction: column;
+    color: white;
+    padding: 24px;
+    text-align: justify;
+    width: 350px;
+    background-color:#1DB954;
+    border-radius: 12px;
+    align-items: center;
+}
+.music-card-text h3{
+    font-size: x-large;
+}
+
+.button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 8px;
+    margin-top: 12px;
+    width: fit-content;
+    border-radius: 10px;
+}
+
+ .button #spotify-button {
+    padding-right: 6px;
+}
 @media (max-width: 800px) {
     .header .container {
         flex-wrap: wrap;
