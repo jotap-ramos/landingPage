@@ -131,8 +131,6 @@ a {
 
 .review-boxes {
     min-height: 400px;
-    padding: 30px;
-
 }
 
 .review-boxes #review-section-title {
@@ -140,7 +138,6 @@ a {
     text-align: center;
     background-color: silver;
     opacity: 0.9;
-    margin: -30px -30px 32px;
     padding: 12px;
     font-size: 36px;
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
@@ -334,10 +331,9 @@ a {
 /*This part will style the review pages sections.*/
 
 .container#review-text {
-    border: 2px solid red;
     background-color: white;
-    padding: 20px;
-    margin: 0 25vw;
+    padding: 8vh;
+    margin: 0 28vw;
     min-width: fit-content;
     opacity: 0.9;
     border-radius: 40px;
@@ -370,5 +366,5 @@ p {
 
 #review-references {
     margin-top: 36px;
-    padding: 20px;
+    padding: 2vh;
 }
