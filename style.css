@@ -149,12 +149,13 @@ a {
 .review-boxes .container {
     display: flex; 
     justify-content: center;
-    gap: 200px;
+    column-gap: 160px;
+    row-gap: 60px;
     max-width: fit-content;
     flex-wrap: wrap;
     margin-top: 120px;
     margin-bottom: 120px;
-    padding: 0 100px;
+    padding: 0 140px;
 }
 
 .review-boxes p {
@@ -348,9 +349,16 @@ a {
 #review-text p {
     text-align: justify;
     text-indent: 50px;
+    font-size: 2
+    0px;
 }
+#review-text h3 {
+    font-size: 18px;
+}
+
 p {
     margin: 4px;
+    font-size: 16px;
 }
 
 #reviewpage-subtitle {
@@ -360,5 +368,4 @@ p {
 #review-references {
     margin-top: 36px;
     padding: 20px;
-    ;
 }
