@@ -14,7 +14,9 @@ h1, h2, h3 {
 }
 
 .navbar {
-    background-color: silver;
+    /* background-color: silver; */
+    background-image: url(./navbar_background.png);
+    background-size:contain;
     color: white;
 }
 
