@@ -6,7 +6,7 @@
 
 body {
     font-family: 'Roboto', sans-serif;
-    /* background-color: #1f2937; */
+    background-image: url(./background_image1.jpg);
 }
 
 h1, h2, h3 {
@@ -87,14 +87,19 @@ a {
 }
 
 .review-boxes {
-    background-color: white;
     min-height: 400px;
     padding: 30px;
 }
 .review-boxes #review-section-title {
-    font-size: 3rem;
+    /* font-size: 3rem; */
     text-align: center;
+    background-color: silver;
+    margin: -30px -30px 32px;
+    padding: 12px;
+    font-size: 36px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
+
 .review-boxes .container {
     display: flex; 
     justify-content: center;
@@ -116,7 +121,8 @@ a {
     justify-content: center;
     padding: 24px;
     opacity: 0.8;
-    color: #1f2937 
+    color: #1f2937;
+    border-radius: 8px;
 }
 
 .box:hover {
