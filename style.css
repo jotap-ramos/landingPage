@@ -312,3 +312,34 @@ a {
     width: 100%;
 }
 
+/*This part will style the review pages sections.*/
+
+.container#review-text {
+    background-color: white;
+    padding: 20px;
+    opacity: 0.9;
+    border-radius: 40px;
+    gap: 0;
+    border: 2px solid red;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+
+}
+
+#review-text p {
+    text-align: justify;
+    text-indent: 50px;
+}
+p {
+    margin: 4px;
+}
+
+#reviewpage-subtitle {
+    font-style: italic;
+}
+
+#review-references {
+    margin-top: 36px;
+}

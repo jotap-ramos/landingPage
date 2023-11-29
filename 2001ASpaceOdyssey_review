@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>2001, Uma Odisseia no Espaço</title>
+        <title>The FilmDabbler</title>
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="stylesheet" href="./style.css">
+    </head>
+</head>
+<body>
+    <nav class="navbar" id="sticky">
+        <div class="container">
+            <div class="logo">The FilmDabbler</div>
+            <ul class="nav">
+                <li><a href="#top">Home</a></li>
+                <li><a href="">About</a></li>
+                <li><a href="">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+    <section class="review-boxes">
+        <h2 id="review-section-title">Reviews</h2>
+        <div class="container" id="review-text">
+        <h2>2001, UMA ODISSEIA NO ESPAÇO</h1>
+        <h3 id="reviewpage-subtitle">O devir tecnológico narrado em quatro atos</h3>
+        <p>“2001, uma odisseia no espaço” é um filme de ficção científica produzido em 1968.
+            Dirigido pelo cineasta norte-americano Stanley Kubrick. Considerado magnum opus da
+            carreira do diretor, o filme faz um corte extenso da história da humanidade, antecipando a
+            exploração espacial pelo homem, mostrando as possibilidades sob a visão de Kubrick antes
+            mesmo da ida do homem à lua em 1969.
+        </p>
+        <p>
+            O primeiro ato da narrativa começa nos transportando para os primórdios da
+humanidade. “A aurora do homem” (‘The Dawn of man’) apresenta um grupo de macacos
+lutando por sobrevivência em um ambiente desértico e hostil com predadores à espreita e uma
+natureza que os transpassa e é desconhecida. Após se ver diversas paisagens do ambiente em
+questão, começa uma disputa entre dois bandos de macacos pelo uso de um açude até um
+grupo afugentar o outro. Na manhã seguinte um dos bandos se depara com algo que parece ter
+caído no solo durante a noite: um grande prisma retangular preto. Apreensivo, um dos
+macacos toca o monolito, e logo em seguida os demais o replicam. O que segue é uma
+mudança de comportamento fundamental, quando, a esmo, um dos macacos se aproxima da
+ossada de um animal, e, por tentativa e erro, descobre uma nova ferramenta. A relação do
+macaco com o osso nesse momento parece remeter à metáfora do martelo de Heidegger.
+Quando aprende a manusear o osso, o macaco se esquece da sua existência. O osso se torna
+uma extensão do seu próprio ser, passa a constituí-lo. O macaco passa, assim, a enxergar o
+mundo através dessa ferramenta. Ela empresta o seu ponto de vista em relação ao meio. Vê-se
+agora o mundo através das possibilidades que a ferramenta apresenta. E não mais o osso em
+si. O foco agora está nas potencialidades do novo ser, o novo sujeito: o macaco-com-osso. O
+1
+domínio dessa ferramenta e a sua utilização como porrete ou tacape logo se mostra útil na
+caçada, o que passa a permitir o consumo de carne pelos símios, que vão, cada vez mais,
+mudando o seu comportamento e sua relação com o meio. Os macacos se tornam mais
+“humanos”.
+        </p>
+        <p>
+            Após o osso ser arremessado para o alto, temos a icônica cena de transição, na qual o
+osso transfigura-se em uma espaçonave: o segundo ato do filme começa. Agora a narrativa
+avança milhões de anos. O protagonista, antes um símio não-identificado dá lugar ao Dr.
+Heywood R. Floyd, um cientista viajando em uma nave espacial próxima à Terra e a caminho
+da lua. Após alguns minutos de discussão com colegas a respeito do que, de fato, estaria
+levando o Dr.Floyd à lua, há uma conferência, já em solo lunar. E então a exploração para
+investigação de um objeto anômalo na superfície lunar tem início. Logo é possível notar que
+se trata do mesmo monolito visto na primeira parte do filme. E, assim como o bando de
+macacos no primeiro ato, o grupo de astronautas rodeia o monolito até que um dos homens o
+toca, e então todos se juntam para tirar uma foto. É nesse momento que o objeto passa a emitir
+um som estridente e o segundo ato tem fim.
+        </p>
+        <p>
+            Cerca de um ano e meio depois, os astronautas Frank e Dave partem em uma missão
+para Júpiter a bordo da nave Discovery One. Os astronautas acompanham três colegas em
+estado de hibernação e são auxiliados por HAL-9000, o sexto membro da equipe. HAL é um
+computador dotado de inteligência artificial, responsável por ser o cérebro da nave,
+controlando todas as suas atividades. Entretanto, após o computador identificar
+equivocadamente uma falha na nave, Frank e Dave começam a cogitar desativar o
+computador, mantendo somente funções vitais para o funcionamento da espaçonave. Apesar
+das medidas tomadas pelos astronautas para que a IA não notasse suas intenções, HAL
+consegue decifrar os planos através da leitura labial. HAL, em uma demonstração da sua
+capacidade de experimentar sentimentos humanos como medo e egoísmo, mata Frank quando
+este estava em seu curso para repor uma peça supostamente defeituosa no lado exterior da
+nave com objetivo de testar a confiabilidade nos relatórios apontados pela máquina. Além
+disso, ele bloqueia a entrada de Dave, que acha uma alternativa para entrar na nave. Agora
+Dave, decidido a desligar a IA, segue ao centro de memória lógica do HAL-9000. Nesse
+momento notamos mais uma vez a capacidade de HAL de experimentar sentimentos humanos
+ao expressar o seu medo à medida que Dave vai retirando a sua memória e desativando suas
+funções.
+        </p>
+        <p>
+            Agora, Dave segue sua jornada rumo a Júpiter, à procura de descobrir mais a respeito
+do monolito. Nesse momento, o quarto ato da narrativa tem início. O espectador experimenta uma viagem surrealista, com paisagens mostradas através de diferentes filtros de cor, como se
+quisesse mostrar diferentes espectros de luz. Essa representação da viagem de Dave, que
+parece percorrer o espaço-tempo envelhecendo à medida que viaja, culmina com o astronauta
+chegando a uma casa. Dave começa a percorrer o ambiente e, surpreso, vê a si mesmo, mas
+em dois outros estágios da vida, cada vez mais velho. Instantes antes do final do
+longa-metragem, o monolito aparece novamente, próximo a cama em que Dave, já decrépito,
+está deitado. Ele então tenta aproximar o braço do objeto, e então, já o vemos transformado
+em um feto envolto em uma crisálida placentária. Esse novo ser então aparece no espaço,
+rumo a um planeta que parece ser a Terra. Assim termina o último ato do filme.
+        </p>
+        <p>
+        “2001: uma odisseia no espaço” coloca em pauta, entre outros temas, a discussão a
+respeito da evolução humana aliada ao avanço tecnológico. O monolito que, no filme, parece
+apontar uma mudança de paradigma para a humanidade, acaba anunciando (ou antecipando)
+um avanço tecnológico, que aponta o estágio evolutivo da humanidade (essa hipótese pode ser
+percebida ao atentar-se para as cenas da descoberta da ferramenta pelos macacos, da chegada
+a lua e do surgimento de um novo ser, ainda em estágio fetal ao final do filme). E, tão logo a
+impessoalidade dessa nova tecnologia seja percebida, acaba por mudar hábitos socialmente,
+como o bando de macacos armados com ossos no final do primeiro ato. Ao mesmo tempo, o
+filme alerta acerca dos perigos de se criar uma inteligência artificial com características
+demasiadamente humanas, munindo a máquina de sentimentos como pode ser visto na ira e
+apreensão demonstradas pela máquina no terceiro ato. Como disse Terêncio, poeta e
+dramaturgo romano: “Eu sou humano, e portanto, nada do que é humano me é estranho”.
+HAL, aparenta ter entendido bem a frase, compreendendo a si mesmo como humano, capaz
+de deliberar, sentir medo, angústia e instinto de sobrevivência. O que o levou a cometer o
+assassinato de vários dos membros da tripulação com o intuito de continuar “vivo” e não ser
+desligado. Ao final, o filme termina com a promessa de uma nova versão do ser-humano, após
+o surgimento do monolito mais uma vez, a humanidade parece alcançar um novo salto de
+consciência. Nesse ponto, resta à imaginação conceber as potencialidades que essa nova
+evolução do ser reserva para a humanidade.
+    </p>
+    <section id="review-references">
+        <h3>Referências Bibliográficas</h3>
+        <p>
+            PHILOSOPHY TUBE. Transhumanism: <a href=" https://www.youtube.com/watch?v=DqPd6MShV1o&t=1186s"> "The World's Most Dangerous Idea".</a>
+[Vídeo]. Acesso em: 26 jun. 2023.
+        </p>
+        <p>
+            MARCELLO, Carolina. <a href="https://www.culturagenial.com/2001-uma-odisseia-no-espaco/">2001: Uma Odisseia no Espaço.</a> [Filme]. Acesso em: 26 jun. 2023.
+        </p>
+        <p>
+            “POR QUE 2001 É UMA OBRA-PRIMA? | <a href="https://www.youtube.com/watch?v=MFBleObCs_8">Segredos do Cinema: Especial 2001 -
+                Uma Odisseia no Espaço.”</a> [Vídeo]. Acesso em: 27 jun. 2023.
+        </p>
+        <p>
+            <a href="https://www.imdb.com/title/tt0062622/">“2001: Uma Odisséia no Espaço.”</a> [Filme]. Acesso em: 27 jun. 2023.
+        </p>
+    </section>
+    </div>
+    </section>
+</body>
+
+</html>
