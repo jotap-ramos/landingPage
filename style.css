@@ -278,6 +278,9 @@ a {
     font-family: 'Times New Roman', Times, serif;
     padding: 6px;
     font-size: small;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
 }
 
 @media (max-width: 800px) {
