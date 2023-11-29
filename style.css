@@ -332,8 +332,8 @@ a {
 
 .container#review-text {
     background-color: white;
-    padding: 8vw;
-    margin: 0 20vw;
+    padding: 4vw;
+    margin: 0 28vw;
     min-width: fit-content;
     opacity: 0.9;
     border-radius: 40px;
@@ -342,6 +342,7 @@ a {
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: center;
 }
 
 
@@ -349,14 +350,14 @@ a {
 #review-text p {
     text-align: justify;
     text-indent: 50px;
-    font-size: 20px;
-}
-
-#review-text h3 {
     font-size: 18px;
 }
 
-@media (max-width: 400px) {
+#review-text h3 {
+    font-size: 20px;
+}
+
+@media (max-width: 600px) {
     .container#review-text {
         margin: 0 14vw;
         font-size: 14px;
