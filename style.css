@@ -6,7 +6,7 @@
 
 body {
     font-family: 'Roboto', sans-serif;
-    background-color: #1f2937;
+    /* background-color: #1f2937; */
 }
 
 h1, h2, h3 {
@@ -49,11 +49,14 @@ h1, h2, h3 {
     gap: 20px;
 }
 
-.nav a {
+a {
     color: white;
     text-decoration: none;
     font-size: 16px;
     font-weight: bold;
+}
+.header, .footer {
+    background-color: #1f2937;
 }
 
 .header .container {
@@ -62,6 +65,11 @@ h1, h2, h3 {
     display: flex;
     justify-content: center;
     align-items: center;
+
+}
+.header p {
+    font-family:monospace;
+    font-size: 16px;
 }
 
 .container h1 {
@@ -78,6 +86,7 @@ h1, h2, h3 {
     max-width: 300px;
     height: auto;
     padding: 1em;
+    padding-bottom: 0;
     border: 2px solid blue;
 }
 
@@ -228,13 +237,24 @@ h1, h2, h3 {
     color: white;
     padding: 24px;
     text-align: justify;
+    font-weight: 600;
     width: 350px;
-    background-color:#1DB954;
+    background-image: url(./green_music_background.jpg);
+    background-position: top;
+    background-size: cover;
+    opacity: 0.9;
     border-radius: 12px;
     align-items: center;
+    box-shadow: 0px 30px 10px lightgreen;
+    font-family:monospace;
+    line-height: 1.0;
 }
+
 .music-card-text h3{
     font-size: x-large;
+}
+.music-card-text p{
+    font-size:medium;
 }
 
 .button {
@@ -250,6 +270,16 @@ h1, h2, h3 {
  .button #spotify-button {
     padding-right: 6px;
 }
+
+.footer {
+    border: 2px solid green;
+    text-align: center;
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    padding: 6px;
+    font-size: small;
+}
+
 @media (max-width: 800px) {
     .header .container {
         flex-wrap: wrap;
