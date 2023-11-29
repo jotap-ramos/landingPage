@@ -65,6 +65,17 @@ a {
     align-items: center;
 
 }
+
+@media (max-width: 800px) {
+    .header .container {
+        flex-wrap: wrap;
+    }
+    
+    .header .header-title {
+        text-align: center;
+    }
+}
+
 .header p {
     font-family:monospace;
     font-size: 16px;
@@ -94,6 +105,7 @@ a {
     /* font-size: 3rem; */
     text-align: center;
     background-color: silver;
+    opacity: 0.9;
     margin: -30px -30px 32px;
     padding: 12px;
     font-size: 36px;
@@ -103,9 +115,11 @@ a {
 .review-boxes .container {
     display: flex; 
     justify-content: center;
-    gap: 24px;
+    gap: 62px;
     max-width: fit-content;
     flex-wrap: wrap;
+    margin-top: 120px;
+    margin-bottom: 120px;
 }
 
 .review-boxes p {
@@ -113,21 +127,19 @@ a {
 }
 
 .box {
-    width:300px;
-    height: 300px;
+    width:400px;
+    height: 400px;
     transition-duration: 2s;
     display: flex;
     flex-direction: column;
     justify-content: center;
     padding: 24px;
-    opacity: 0.8;
     color: #1f2937;
     border-radius: 8px;
 }
 
 .box:hover {
     box-shadow: 30px 30px 60px rgba(0, 0, 0, 0.8);
-    opacity: 1;
 }
 
 .box#movie1 {
@@ -165,21 +177,21 @@ a {
     background-image: url(./terminator.jpg);
     background-size:cover;
     background-position: center;
-    color: black ;
+    color: white ;
 }
 
 .box#movie3:hover {
     background-image: url(./blood_diamond.jpg);
     background-size:cover;
     background-position: center;
-    color: black ;
+    color: white ;
 }
 
 .box#movie4:hover {
     background-image: url(./they_cloned_tyrone.jpg);
     background-size:cover;
     background-position: center;
-    color: black ;   
+    color: white ;   
 } 
 
 .quote-container {
@@ -189,7 +201,7 @@ a {
     text-align:justify;
     font-size: 36px;
     font-weight: lighter;
-    padding: 30px;
+    padding: 100px;
     background-color: #e5e7eb;
 }
 
@@ -231,9 +243,11 @@ a {
     opacity: 0.9;
     border-radius: 12px;
     align-items: center;
-    box-shadow: 0px 30px 10px lightgreen;
+    box-shadow: 10px 30px 30px lightgreen;
     font-family:monospace;
     line-height: 1.0;
+    margin-top: 100px;
+    margin-bottom: 100px;
 }
 
 .music-card-text h3{
@@ -251,11 +265,19 @@ a {
     margin-top: 12px;
     width: fit-content;
     border-radius: 10px;
+    font-family: 'roboto';
+    font-weight: bold;
 }
 
- .button #spotify-button {
-    padding-right: 6px;
+.button:hover {
+    background-color: lightgreen;
 }
+
+ .button #spotify-icon {
+    padding-right: 6px;
+    padding-left: 6px;
+}
+
 
 .footer {
     text-align: center;
@@ -268,8 +290,3 @@ a {
     width: 100%;
 }
 
-@media (max-width: 800px) {
-    .header .container {
-        flex-wrap: wrap;
-    }
-}
