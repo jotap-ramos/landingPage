@@ -38,10 +38,10 @@ h1, h2, h3 {
     margin: 0 auto;
 }
 
-@media (max-width:550px){
+@media (max-width:500px){
     .navbar .container {
         flex-wrap: wrap;
-        justify-content: center;
+        justify-content: space-around;
         flex: 1 1 auto;
         width: fit-content;
         height: fit-content;
@@ -53,6 +53,8 @@ h1, h2, h3 {
     font-size: xx-large;
     font-weight: bold;
     font-style:oblique;
+    border: 2px solid green;
+    text-wrap:nowrap;
 }
 
 .navbar .nav {
