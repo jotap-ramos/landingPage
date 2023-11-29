@@ -73,3 +73,106 @@ h1, h2, h3 {
     padding: 1em;
     border: 2px solid blue;
 }
+
+.review-boxes {
+    background-color: white;
+    min-height: 400px;
+    padding: 30px;
+}
+.review-boxes #review-section-title {
+    font-size: 3rem;
+    text-align: center;
+    border: 2px solid black;
+}
+.review-boxes .container {
+    display: flex; 
+    justify-content: center;
+    gap: 24px;
+    max-width: fit-content;
+    flex-wrap: wrap;
+    border: 2px solid blue;
+    
+    /* text-align: center; */
+    /* padding: 30px;
+    border: 2px solid orange;
+    background-color: white; */
+    /* display: flex; */
+    /* justify-content: center;
+    align-items: center; */
+}
+
+.review-boxes p {
+    text-align: center;
+    border: 2px solid green;
+
+}
+
+.box {
+    border: 2px solid green;
+    width:300px;
+    height: 300px;
+    transition-duration: 2s;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 24px;
+    opacity: 0.8;
+    color: #1f2937 
+}
+
+.box:hover {
+    box-shadow: 30px 30px 60px rgba(0, 0, 0, 0.8);
+    opacity: 1;
+}
+
+.box#movie1 {
+    background-image: url(./2001_img.jpg);
+    background-size:cover;
+    background-position: left;
+}
+
+.box#movie2 {
+    background-image: url(./terminator.jpg);
+    background-size:cover;
+    background-position: left;
+}
+
+.box#movie3 {
+    background-image: url(./blood_diamond.jpg);
+    background-size:cover;
+    background-position: left;
+}
+
+.box#movie4 {
+    background-image: url(./they_cloned_tyrone.jpg);
+    background-size:cover;
+    background-position: left;
+}
+
+.box#movie1:hover {
+    background-image: url(./2001_img.jpg);
+    background-size:cover;
+    background-position:center;
+    color: black ;
+}
+ 
+.box#movie2:hover {
+    background-image: url(./terminator.jpg);
+    background-size:cover;
+    background-position: center;
+    color: black ;
+}
+
+.box#movie3:hover {
+    background-image: url(./blood_diamond.jpg);
+    background-size:cover;
+    background-position: center;
+    color: black ;
+}
+
+.box#movie4:hover {
+    background-image: url(./they_cloned_tyrone.jpg);
+    background-size:cover;
+    background-position: center;
+    color: black ;   
+} 
