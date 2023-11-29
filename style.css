@@ -332,18 +332,15 @@ a {
 
 .container#review-text {
     background-color: white;
-    padding: 8vh;
-    margin: 0 28vw;
+    padding: 8vw;
+    margin: 0 20vw;
     min-width: fit-content;
     opacity: 0.9;
     border-radius: 40px;
     gap: 0;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
     text-align: center;
-
 }
+
 
 
 #review-text p {
@@ -351,8 +348,20 @@ a {
     text-indent: 50px;
     font-size: 20px;
 }
+
 #review-text h3 {
     font-size: 18px;
+}
+
+@media (max-width: 400px) {
+    .container#review-text {
+        margin: 0 14vw;
+        font-size: 14px;
+    }
+
+    #review-text p, #review-text h3 {
+        font-size: 14px;
+    }
 }
 
 p {
