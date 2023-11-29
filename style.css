@@ -29,7 +29,6 @@ h1, h2, h3 {
     height: 60px;
     justify-content: space-between;
     align-items: center;
-    border: 2px solid green
 }
 
 .container {
@@ -60,7 +59,6 @@ a {
 }
 
 .header .container {
-    border: 2px solid red;
     min-height: 400px;
     display: flex;
     justify-content: center;
@@ -78,7 +76,6 @@ a {
 
 .container #site-presentation {
     color: white;
-    border: 2px solid green;
 
 }
 
@@ -87,7 +84,6 @@ a {
     height: auto;
     padding: 1em;
     padding-bottom: 0;
-    border: 2px solid blue;
 }
 
 .review-boxes {
@@ -98,7 +94,6 @@ a {
 .review-boxes #review-section-title {
     font-size: 3rem;
     text-align: center;
-    border: 2px solid black;
 }
 .review-boxes .container {
     display: flex; 
@@ -106,25 +101,13 @@ a {
     gap: 24px;
     max-width: fit-content;
     flex-wrap: wrap;
-    border: 2px solid blue;
-    
-    /* text-align: center; */
-    /* padding: 30px;
-    border: 2px solid orange;
-    background-color: white; */
-    /* display: flex; */
-    /* justify-content: center;
-    align-items: center; */
 }
 
 .review-boxes p {
     text-align: center;
-    border: 2px solid green;
-
 }
 
 .box {
-    border: 2px solid green;
     width:300px;
     height: 300px;
     transition-duration: 2s;
@@ -201,12 +184,10 @@ a {
     font-size: 36px;
     font-weight: lighter;
     padding: 30px;
-    border: 2px solid green;
     background-color: #e5e7eb;
 }
 
 .quote-card {
-    border: 2px solid red;
     color:#1f2937;
     max-width: 100dvh;
     font-family: 'Times New Roman', Times, serif;
@@ -231,7 +212,6 @@ a {
 }
 
 .music-card-text {
-    border: 2px solid green;
     display: flex;
     flex-direction: column;
     color: white;
@@ -272,7 +252,6 @@ a {
 }
 
 .footer {
-    border: 2px solid green;
     text-align: center;
     color: white;
     font-family: 'Times New Roman', Times, serif;
